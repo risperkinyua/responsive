@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+.blue{
+    height:100vh;
+    width:100%;
+    display: flex;
+}
+.blue1{
+    height:100%;
+    width:20%;
+    background-color: red;
+}
+.blue2{
+    height:100%;
+    width:20%;
+    background-color: orange;
+}
+.blue3{
+    height:100%;
+    width:20%;
+    background-color: yellow;
+}
+
+.blue4{
+    height:100%;
+    width:20%;
+    background-color: green;
+}
+
+.blue5{
+    height:100%;
+    width:20%;
+    background-color:blue;
+}
+
+.blue6{
+    height:100%;
+    width:20%;
+    background-color: indigo;
+}
+.blue div{
+    color:white;
+    font-size:22px;
+}
+
+
+@media(max-width:1024px){
+.blue{
+    flex-wrap: wrap;
+}
+    .blue > div{
+        width:100%;
+        height:20%;
+        font-size:18px;
+        
+    }
+    .blue1 p{
+        display: none;
+    }
+}
